@@ -3,6 +3,7 @@ public class thmain {
     static void readFile()throws IOException{
         FileReader fr=new FileReader("text.txt");
         System.out.println("file open");
+        fr.close();
     }
     public static void main(String[] args){
         try {
